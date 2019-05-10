@@ -56,7 +56,7 @@ server.listen(process.env.NODE_PORT || 3000, process.env.NODE_IP || 'localhost',
   console.log( (process.env.NODE_PORT || 3000) + " " + (process.env.NODE_IP || 'localhost') );
 });
 
-clearUsersAndRoomsFromDb();
+// clearUsersAndRoomsFromDb();
 
 // development error handler, will print stacktrace
 app.use(function (err, req, res, next) {
